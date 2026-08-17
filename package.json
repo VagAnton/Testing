@@ -1,0 +1,24 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VagAnton/Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VagAnton/Testing/issues"
+  },
+  "homepage": "https://github.com/VagAnton/Testing#readme",
+  "dependencies": {
+    "cypress": "^15.20.1"
+  }
+}
