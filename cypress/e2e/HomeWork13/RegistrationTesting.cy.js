@@ -1,7 +1,7 @@
 describe('Registration form', () => {
 
   beforeEach(() => {
-    cy.visit('/', {
+    cy.visit('https://qauto.forstudy.space/', {
       auth: {
         username: 'guest',
         password: 'welcome2qauto',

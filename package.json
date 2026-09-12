@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open:qauto": "cypress open --config-file cypress.config.qauto.js",
+    "cy:run:qauto": "cypress run --config-file cypress.config.qauto.js",
+    "cy:open:qauto2": "cypress open --config-file cypress.config.qauto2.js",
+    "cy:run:qauto2": "cypress run --config-file cypress.config.qauto2.js",
+    "cy:run:qauto:homework": "cypress run --config-file cypress.config.qauto.js --spec \"cypress/e2e/HomeWork14/{garage,fuelExpenses}.cy.js\"",
+    "cy:run:qauto2:homework": "cypress run --config-file cypress.config.qauto2.js --spec \"cypress/e2e/HomeWork14/{garage,fuelExpenses}.cy.js\""
   },
   "repository": {
     "type": "git",
@@ -20,5 +26,8 @@
   "homepage": "https://github.com/VagAnton/Testing#readme",
   "dependencies": {
     "cypress": "^15.20.1"
+  },
+  "devDependencies": {
+    "mochawesome": "^8.0.1"
   }
 }
